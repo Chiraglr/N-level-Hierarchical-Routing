@@ -10,6 +10,8 @@ Network Requirements:
 Example Network:
     It is a 2-level hierarchical network. Nodes 2,7,9,15,18,22,28 and 35 are 1-level border gateway routers. They interconnect the hierarchically lowest circles. Nodes 10,13,26 and 35 are 2-level border gateway routers as they interconnect the hierarchically highest circles.
 The example hierarchical network shown in “Computer Networks by Andrew Tannenbaum” also works. 
+![image](https://user-images.githubusercontent.com/29271117/42745582-31dc2c02-88f1-11e8-8ef8-0c4b172c97db.png)
+Output:
 
 Algorithms used: Floyds algorithm(To compute the cost for traversals between nodes), dijkstra’s 
                              algorithm(To trace the path taken between two nodes.)
