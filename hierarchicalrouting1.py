@@ -58,9 +58,6 @@ def forward(src,dest,lvl,de,l,pos,ntwcost,r,nodes,bgr,prefix,origntwcost,cos):
                     poss=[]
                     for k in range(len(nodes[lvl-1][i])):
                         if prefix[pos][nodes[lvl-1][i][k]]==de[pos]:
-                            #for j in range(len(nodes[lvl-1][i])):
-                                #if nodes[lvl-1][i][j]==nodes[lvl-1][i][k]:
-                                    #poss.append(k)
                             poss.append(k)
                     
                     mi=0
@@ -77,20 +74,6 @@ def forward(src,dest,lvl,de,l,pos,ntwcost,r,nodes,bgr,prefix,origntwcost,cos):
     else:
         for i in range(len(nodes[lvl])):
             if src in nodes[lvl][i]:
-                #if dest in nodes[lvl][i]:
-                #   a=0
-                #    for k in range(len(nodes[lvl][i])):
-                #        if nodes[lvl][i][k]==src:
-                #            a=k
-                #    for k in range(len(nodes[lvl][i])):
-                #        if nodes[lvl][i][k]==dest:
-                #            trav=dijkstras(origntwcost[lvl][i],a,k)
-                #            for j in range(1,len(trav)):
-                #                print "->",
-                #                print nodes[lvl][i][trav[j]],
-                #            return dest,r[lvl][i][a][k]        
-                
-                #else:
                     poss=[]
                     for j in range(len(nodes[lvl][i])):
                         if prefix[pos][nodes[lvl][i][j]]==de[pos]:
