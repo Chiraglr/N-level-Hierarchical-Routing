@@ -12,7 +12,7 @@ Example Network:
 The example hierarchical network shown in “Computer Networks by Andrew Tannenbaum” also works. 
 ![image](https://user-images.githubusercontent.com/29271117/42745582-31dc2c02-88f1-11e8-8ef8-0c4b172c97db.png)
 Output:
-
+![image](https://user-images.githubusercontent.com/29271117/42745622-6c008d92-88f1-11e8-9be5-139733655567.png)
 Algorithms used: Floyds algorithm(To compute the cost for traversals between nodes), dijkstra’s 
                              algorithm(To trace the path taken between two nodes.)
 
